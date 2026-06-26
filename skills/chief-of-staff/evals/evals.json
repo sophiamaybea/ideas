@@ -1,0 +1,48 @@
+{
+  "skill_name": "personal-assistant",
+  "evals": [
+    {
+      "id": 0,
+      "name": "catch-me-up-briefing",
+      "prompt": "I've been out of the office Monday and Tuesday and I'm drowning. Can you catch me up and tell me what actually needs my attention today? I've pasted an export of my inbox, today's calendar, and Slack into the attached file.",
+      "expected_output": "A briefing that leads with the few things that truly need the principal's action (with deadlines and why), flags the calendar conflict, surfaces the CEO DM, and pushes low-value noise (newsletter, lunch thread, wifi) down or out.",
+      "files": ["fixtures/catch-me-up-dump.md"],
+      "assertions": [
+        {"text": "Separates 'needs you / action' items from FYI/handled items rather than dumping a flat list"},
+        {"text": "Flags the Q3 budget sign-off as urgent with its Wed EOD deadline and why (vendor PO slips)"},
+        {"text": "Catches the calendar conflict between the board working session and the Acme vendor demo at 3:30"},
+        {"text": "Surfaces the CEO's Northwind gut-check DM as something needing a response"},
+        {"text": "Does not give prominence to low-value noise (newsletter, #random lunch thread, wifi maintenance)"},
+        {"text": "Action items include a deadline and/or a reason, not just a vague 'follow up'"}
+      ]
+    },
+    {
+      "id": 1,
+      "name": "acme-meeting-prep",
+      "prompt": "I've got the Acme Q3 renewal call tomorrow at 2pm and I want to walk in ready. Prep me. Context is in the attached file.",
+      "expected_output": "A tight one-page meeting brief: purpose/goal, attendees with relevant context, where things stand, open items carried forward, a proposed agenda, talking points (incl. the discount lever), and watch-outs (competitor).",
+      "files": ["fixtures/acme-meeting-context.md"],
+      "assertions": [
+        {"text": "Produces a structured meeting brief (purpose/goal, attendees, agenda, and talking points/questions)"},
+        {"text": "Surfaces the 18% / 2-year discount authority as a concrete negotiating lever"},
+        {"text": "Characterizes attendees usefully (Dana skeptical on price/controls budget; Priya is the champion)"},
+        {"text": "Carries forward open items from the last meeting (outstanding security questionnaire and/or owed references + ROI summary)"},
+        {"text": "Flags the competitor Glint teaser quote as a watch-out / risk"}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "action-item-tracker",
+      "prompt": "Here are the notes from yesterday's eng leadership sync. Pull out the action items and set me up a tracker I can actually keep using and update each week.",
+      "files": ["fixtures/team-sync-notes.md"],
+      "expected_output": "A reusable tracker (spreadsheet) with owner / due / status columns capturing every commitment, including the implied owner-less offsite item and the principal's own blocking decision, distinguishing waiting-on-me from waiting-on-others.",
+      "assertions": [
+        {"text": "Produces an actual reusable tracker file (.xlsx or .csv), not just an inline list"},
+        {"text": "Tracker has owner, due date, and status columns (and ideally a source column)"},
+        {"text": "Captures the offsite-venue item that had no clear owner and flags it as unassigned or assigns it"},
+        {"text": "Identifies Mara's own liability-cap decision as a blocking action item"},
+        {"text": "Distinguishes items the principal owes (waiting on me) from items others owe (waiting on them)"}
+      ]
+    }
+  ]
+}
