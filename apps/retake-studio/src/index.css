@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-cloud text-ink font-sans antialiased;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #7c5cff, #ff7eb3, #7c5cff);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  @apply animate-shimmer;
+}
+
+.card {
+  @apply rounded-2xl border border-black/5 bg-white shadow-sm;
+}
