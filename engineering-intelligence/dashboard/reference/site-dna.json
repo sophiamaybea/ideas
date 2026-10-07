@@ -1,0 +1,101 @@
+{
+  "reference": "https://andrewtrousdale.com/",
+  "purpose": "Reconstruct the reference site's interaction grammar and visual system for Engineering Intelligence using original Engineering Intelligence content and data.",
+  "evidence": {
+    "publicSite": "OBSERVED",
+    "siteinspireScreenshot": "OBSERVED",
+    "independentReviews": "OBSERVED",
+    "exactSourceCSS": "UNKNOWN",
+    "exactFontFiles": "NOT_COPIED"
+  },
+  "visualSystem": {
+    "background": "#f2f2ed",
+    "foreground": "#11110f",
+    "card": "#fbfbf8",
+    "accent": "#f05a28",
+    "line": "rgba(17,17,15,.58)",
+    "typography": {
+      "referenceFamily": "Brunswick Grotesque reported by design-index sources",
+      "implementation": "system grotesk stack to avoid copying proprietary font assets",
+      "bodyScale": "11–13px desktop, 10–12px mobile",
+      "labels": "7–10px uppercase",
+      "tracking": "slightly tight",
+      "lineHeight": "1.1–1.35"
+    },
+    "geometry": {
+      "composition": "full-viewport graph field + compact floating index card",
+      "cardWidth": "~320–360px desktop",
+      "borders": "1px black / dotted separators",
+      "radius": "2–4px",
+      "shadows": "very restrained"
+    }
+  },
+  "informationArchitecture": {
+    "primary": "graph of connected concepts/projects",
+    "secondary": "floating INDEX card with accordion sections",
+    "tertiary": "small floating detail card opened from a node or index row"
+  },
+  "interaction": {
+    "graph": [
+      "pan",
+      "wheel zoom",
+      "node hover",
+      "node click",
+      "cluster focus"
+    ],
+    "index": [
+      "accordion expand/collapse",
+      "hover-link graph node",
+      "route/cluster focus"
+    ],
+    "detail": [
+      "open from node/list row",
+      "close without leaving graph"
+    ],
+    "responsive": "mobile uses bottom index sheet while graph remains visible"
+  },
+  "motion": {
+    "general": "minimal functional motion",
+    "easing": "ease-out, short 140–240ms",
+    "graph": "transform-based pan/zoom with no decorative continuous animation",
+    "accessibility": "prefers-reduced-motion removes transform animation"
+  },
+  "implementation": {
+    "stack": [
+      "static HTML",
+      "CSS",
+      "vanilla JavaScript",
+      "SVG"
+    ],
+    "rationale": "Current dataset is small. A dependency-free SVG/DOM implementation matches the reference more closely and avoids unnecessary graph-library overhead.",
+    "consideredRepositories": [
+      {
+        "repository": "d3/d3-force",
+        "decision": "LEARN",
+        "reason": "useful force-layout primitive but unnecessary for a deliberately composed small graph"
+      },
+      {
+        "repository": "jacomyal/sigma.js",
+        "decision": "WATCH",
+        "reason": "excellent large-graph renderer, excessive for current node count"
+      },
+      {
+        "repository": "cytoscape/cytoscape.js",
+        "decision": "WATCH",
+        "reason": "strong graph analysis/visualisation, excessive for current visual-only interaction"
+      }
+    ]
+  },
+  "contentBoundary": {
+    "reuse": "layout grammar, node-map metaphor, compact index interaction, typographic scale, spatial feel",
+    "doNotCopy": [
+      "Andrew Trousdale text",
+      "brand identity",
+      "project names",
+      "media assets",
+      "font files",
+      "private code"
+    ],
+    "engineeringIntelligenceContentOnly": true
+  }
+}
