@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<title>Engineering Intelligence</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div id="boot">LOADING INTELLIGENCE...</div>
+<div id="app" hidden>
+<header class="topbar">
+  <button class="brand" data-route="home">EI<span class="dot">●</span></button>
+  <div class="run-state"><span id="liveDot"></span><span id="runLabel">HOURLY INTELLIGENCE</span></div>
+  <button class="menuBtn" id="menuBtn" aria-label="Open navigation">MENU</button>
+</header>
+<nav class="rail" id="rail" aria-label="Main navigation">
+  <button data-route="home">NOW</button><button data-route="repos">REPOS</button>
+  <button data-route="prompts">PROMPTS</button><button data-route="ventures">VENTURES</button>
+  <button data-route="companies">COMPANIES</button><button data-route="projects">CURRENT</button>
+  <button data-route="learning">LEARNING</button>
+</nav>
+<main id="view"></main>
+<footer>
+  <span>ENGINEERING INTELLIGENCE</span><span id="footerUpdate"></span>
+</footer>
+</div>
+<dialog id="detailDialog"><button class="closeDialog" aria-label="Close">×</button><div id="dialogContent"></div></dialog>
+<script src="/app.js"></script>
+</body>
+</html>
