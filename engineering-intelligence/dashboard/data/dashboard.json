@@ -1,0 +1,1775 @@
+{
+  "meta": {
+    "title": "ENGINEERING INTELLIGENCE",
+    "subtitle": "A living operating system for repos, prompts, ventures, money and technical change.",
+    "lastUpdated": "2026-10-07T00:34:00-04:00",
+    "sourceBranch": "engineering-intelligence",
+    "updateCadence": "hourly",
+    "financialDataset": "FY2025 net income, CompaniesRanked/SEC EDGAR, data updated 2026-09-15",
+    "modelNotice": "Venture income figures are scenario simulations from explicit assumptions, not promises or observed earnings."
+  },
+  "modes": [
+    "/x10think",
+    "/github",
+    "/goldmine",
+    "/chainofthought",
+    "/analyst",
+    "/market",
+    "/unpopular",
+    "/creative",
+    "/startup",
+    "/alternative",
+    "/debug",
+    "/wolfram"
+  ],
+  "changes": [
+    {
+      "time": "NOW",
+      "type": "ARCHITECTURE",
+      "title": "The Foundry becomes the parent system",
+      "body": "Money Radar, repo archaeology, Wolfram optimisation, venture generation and the business command centre now share one evidence and outcome loop."
+    },
+    {
+      "time": "NOW",
+      "type": "GITHUB",
+      "title": "Wolfram AgentTools moved today",
+      "body": "The agent-to-Wolfram bridge is now a priority integration seam for computational evaluation and optimisation."
+    },
+    {
+      "time": "NOW",
+      "type": "MODEL",
+      "title": "Eight venture candidates now have simulation baselines",
+      "body": "Each idea has a Monte Carlo revenue range and probability measures. Actual outcomes remain empty until money is genuinely received."
+    },
+    {
+      "time": "NOW",
+      "type": "UI",
+      "title": "Frontend becomes the observability layer",
+      "body": "Every report, repo, prompt, venture assumption, company thesis and learning event should be inspectable from one interface."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Engineering Intelligence",
+      "status": "LIVE",
+      "kind": "Knowledge OS",
+      "purpose": "Hourly technical memory, GitHub radar and architecture evolution.",
+      "evidence": "GitHub branch active"
+    },
+    {
+      "name": "The Foundry",
+      "status": "DESIGNING",
+      "kind": "Autonomous runtime",
+      "purpose": "Discover, build, test, fund, mutate and kill autonomous businesses.",
+      "evidence": "Architecture seeded"
+    },
+    {
+      "name": "Money Radar",
+      "status": "DESIGNING",
+      "kind": "Decision engine",
+      "purpose": "Rank legitimate money-making actions by risk-adjusted value of time.",
+      "evidence": "Core scoring thesis defined"
+    },
+    {
+      "name": "DARWIN",
+      "status": "PROTOTYPE THESIS",
+      "kind": "Evolution engine",
+      "purpose": "Represent ventures as genomes and select using observed economic fitness.",
+      "evidence": "Genome + experiment model defined"
+    },
+    {
+      "name": "AI Business Command Centre",
+      "status": "BUILDING",
+      "kind": "Portfolio UI",
+      "purpose": "See ventures, money, experiments, causes, actions and results.",
+      "evidence": "This frontend is first implementation"
+    },
+    {
+      "name": "Product Reconstruction Engine",
+      "status": "DESIGNING",
+      "kind": "Engineering system",
+      "purpose": "Reconstruct interaction systems, infer implementation and improve them.",
+      "evidence": "Pipeline defined"
+    }
+  ],
+  "repos": [
+    {
+      "name": "openai/openai-agents-python",
+      "status": "FOUNDATION",
+      "stars": "29.9k",
+      "licence": "MIT",
+      "capability": "Compact multi-agent workflows and tool harnesses.",
+      "usedFor": [
+        "Foundry agent services",
+        "Money Radar specialist workers"
+      ],
+      "potential": "High",
+      "examples": [
+        "Tool-using agents",
+        "handoffs",
+        "multi-agent task decomposition"
+      ],
+      "url": "https://github.com/openai/openai-agents-python"
+    },
+    {
+      "name": "microsoft/agent-framework",
+      "status": "FOUNDATION",
+      "stars": "14k",
+      "licence": "MIT",
+      "capability": "Python/.NET orchestration and multi-agent workflows.",
+      "usedFor": [
+        "Framework comparison",
+        "orchestration architecture"
+      ],
+      "potential": "High",
+      "examples": [
+        "Workflow agents",
+        "multi-agent enterprise services"
+      ],
+      "url": "https://github.com/microsoft/agent-framework"
+    },
+    {
+      "name": "langchain-ai/langgraph",
+      "status": "FOUNDATION",
+      "stars": "42.8k",
+      "licence": "MIT",
+      "capability": "Durable, explicit state graphs for agents.",
+      "usedFor": [
+        "Foundry state machine",
+        "long-running business processes"
+      ],
+      "potential": "Very high",
+      "examples": [
+        "Human approval nodes",
+        "retries",
+        "persistent agent graphs"
+      ],
+      "url": "https://github.com/langchain-ai/langgraph"
+    },
+    {
+      "name": "browser-use/browser-use",
+      "status": "FOUNDATION",
+      "stars": "117k",
+      "licence": "MIT",
+      "capability": "Agents that operate websites through a browser.",
+      "usedFor": [
+        "Opportunity execution",
+        "research",
+        "browser workers"
+      ],
+      "potential": "Very high",
+      "examples": [
+        "Form completion",
+        "web research",
+        "site operations"
+      ],
+      "url": "https://github.com/browser-use/browser-use"
+    },
+    {
+      "name": "OpenHands/OpenHands",
+      "status": "COMPONENT",
+      "stars": "90k",
+      "licence": "MIT",
+      "capability": "Autonomous software-engineering agents.",
+      "usedFor": [
+        "Coding-worker architecture",
+        "repo implementation"
+      ],
+      "potential": "High",
+      "examples": [
+        "Issue resolution",
+        "code edits",
+        "software tasks"
+      ],
+      "url": "https://github.com/OpenHands/OpenHands"
+    },
+    {
+      "name": "mem0ai/mem0",
+      "status": "COMPONENT",
+      "stars": "66.7k",
+      "licence": "Apache-2.0",
+      "capability": "Persistent memory infrastructure for AI systems.",
+      "usedFor": [
+        "Cross-run agent memory evaluation"
+      ],
+      "potential": "High",
+      "examples": [
+        "User memory",
+        "agent state",
+        "long-term context"
+      ],
+      "url": "https://github.com/mem0ai/mem0"
+    },
+    {
+      "name": "getzep/graphiti",
+      "status": "COMPONENT",
+      "stars": "31.5k",
+      "licence": "Apache-2.0",
+      "capability": "Real-time temporal knowledge graphs for agents.",
+      "usedFor": [
+        "Evidence graph",
+        "business memory"
+      ],
+      "potential": "Very high",
+      "examples": [
+        "Changing facts",
+        "entity relationships",
+        "temporal retrieval"
+      ],
+      "url": "https://github.com/getzep/graphiti"
+    },
+    {
+      "name": "ruvnet/ruflo",
+      "status": "FRONTIER",
+      "stars": "74k",
+      "licence": "MIT",
+      "capability": "Large-scope swarm/agent harness with adaptive memory.",
+      "usedFor": [
+        "Swarm pattern study",
+        "self-learning architecture comparison"
+      ],
+      "potential": "High but complex",
+      "examples": [
+        "Parallel agent teams",
+        "swarm orchestration",
+        "skills"
+      ],
+      "url": "https://github.com/ruvnet/ruflo"
+    },
+    {
+      "name": "Yeachan-Heo/oh-my-claudecode",
+      "status": "FRONTIER",
+      "stars": "39.6k",
+      "licence": "MIT",
+      "capability": "Teams-first multi-agent coding orchestration.",
+      "usedFor": [
+        "Coding team decomposition",
+        "parallel execution study"
+      ],
+      "potential": "High",
+      "examples": [
+        "Parallel coding workers",
+        "role-based agent teams"
+      ],
+      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode"
+    },
+    {
+      "name": "VRSEN/agency-swarm",
+      "status": "FRONTIER",
+      "stars": "4.6k",
+      "licence": "MIT",
+      "capability": "Role/tool based multi-agent orchestration.",
+      "usedFor": [
+        "Simple agency topology reference"
+      ],
+      "potential": "Medium",
+      "examples": [
+        "Specialist agent agencies",
+        "handoff workflows"
+      ],
+      "url": "https://github.com/VRSEN/agency-swarm"
+    },
+    {
+      "name": "nottelabs/notte",
+      "status": "FRONTIER",
+      "stars": "2k",
+      "licence": "REVIEW",
+      "capability": "Cloud browser infrastructure for autonomous agents.",
+      "usedFor": [
+        "Remote-browser comparison"
+      ],
+      "potential": "Medium-high",
+      "examples": [
+        "Hosted browser sessions",
+        "web task execution"
+      ],
+      "url": "https://github.com/nottelabs/notte"
+    },
+    {
+      "name": "doobidoo/mcp-memory-service",
+      "status": "FRONTIER",
+      "stars": "2k",
+      "licence": "Apache-2.0",
+      "capability": "MCP/REST persistent memory plus knowledge graph.",
+      "usedFor": [
+        "Shared memory-service comparison"
+      ],
+      "potential": "High",
+      "examples": [
+        "Memory consolidation",
+        "semantic search",
+        "multi-agent memory"
+      ],
+      "url": "https://github.com/doobidoo/mcp-memory-service"
+    },
+    {
+      "name": "n8n-io/n8n",
+      "status": "COMPONENT",
+      "stars": "206k",
+      "licence": "SOURCE-AVAILABLE / REVIEW",
+      "capability": "Large integration and workflow ecosystem.",
+      "usedFor": [
+        "Commodity integration fabric"
+      ],
+      "potential": "High",
+      "examples": [
+        "CRM workflows",
+        "API integrations",
+        "event automation"
+      ],
+      "url": "https://github.com/n8n-io/n8n"
+    },
+    {
+      "name": "ComposioHQ/composio",
+      "status": "COMPONENT",
+      "stars": "30.5k",
+      "licence": "MIT",
+      "capability": "Agent tools, authentication and external integrations.",
+      "usedFor": [
+        "Tool/auth layer"
+      ],
+      "potential": "High",
+      "examples": [
+        "Authenticated SaaS actions",
+        "tool discovery",
+        "agent workbench"
+      ],
+      "url": "https://github.com/ComposioHQ/composio"
+    },
+    {
+      "name": "temporalio/sdk-python",
+      "status": "FOUNDATION",
+      "stars": "1.2k",
+      "licence": "MIT",
+      "capability": "Durable long-running execution with retries and state.",
+      "usedFor": [
+        "Reliable business workflows"
+      ],
+      "potential": "Very high",
+      "examples": [
+        "Long-running jobs",
+        "failure recovery",
+        "workflow durability"
+      ],
+      "url": "https://github.com/temporalio/sdk-python"
+    },
+    {
+      "name": "WolframResearch/AgentTools",
+      "status": "PRIORITY",
+      "stars": "93",
+      "licence": "MIT",
+      "capability": "Wolfram Language MCP bridge.",
+      "usedFor": [
+        "Quantitative agent brain",
+        "optimisation boundary"
+      ],
+      "potential": "Very high",
+      "examples": [
+        "Agent-triggered Wolfram computation",
+        "formal verification"
+      ],
+      "url": "https://github.com/WolframResearch/AgentTools"
+    },
+    {
+      "name": "WolframResearch/WolframClientForPython",
+      "status": "COMPONENT",
+      "stars": "491",
+      "licence": "MIT",
+      "capability": "Call Wolfram Language from Python.",
+      "usedFor": [
+        "Python to Wolfram decision service"
+      ],
+      "potential": "High",
+      "examples": [
+        "Python services invoking symbolic/numerical computation"
+      ],
+      "url": "https://github.com/WolframResearch/WolframClientForPython"
+    },
+    {
+      "name": "anyoptimization/pymoo",
+      "status": "COMPONENT",
+      "stars": "3k",
+      "licence": "Apache-2.0",
+      "capability": "Multi-objective optimisation and Pareto search.",
+      "usedFor": [
+        "Venture portfolio optimisation"
+      ],
+      "potential": "High",
+      "examples": [
+        "NSGA-II/III",
+        "Pareto fronts",
+        "multi-objective design"
+      ],
+      "url": "https://github.com/anyoptimization/pymoo"
+    },
+    {
+      "name": "optuna/optuna",
+      "status": "COMPONENT",
+      "stars": "14.9k",
+      "licence": "MIT",
+      "capability": "Efficient empirical search and optimisation.",
+      "usedFor": [
+        "Policy/parameter experiments"
+      ],
+      "potential": "High",
+      "examples": [
+        "Hyperparameter optimisation",
+        "distributed search"
+      ],
+      "url": "https://github.com/optuna/optuna"
+    }
+  ],
+  "prompts": [
+    {
+      "title": "GITHUB GOLD MINE → BILLION-SCALE PRODUCT DISCOVERY → WOLFRAM INVENTION ENGINE",
+      "codes": [
+        "/githubgold",
+        "/billion",
+        "/wolfram"
+      ],
+      "summary": "Find under-commercialised open-source technology, inspect it deeply, combine capabilities into new products, validate demand and optimise architecture/economics with Wolfram.",
+      "origin": "last-hour"
+    },
+    {
+      "title": "X10THINK MULTI-MODE INTELLIGENCE LAYER",
+      "codes": [
+        "/x10think",
+        "/analyst",
+        "/market",
+        "/unpopular",
+        "/creative",
+        "/startup",
+        "/debug",
+        "/alternative"
+      ],
+      "summary": "Route a problem through deliberately different reasoning modes, cross-examine their outputs and synthesise the strongest evidence-backed conclusion.",
+      "origin": "last-hour"
+    },
+    {
+      "title": "UNIVERSAL EXACT SITE CLONE → OPEN-SOURCE AI ENGINEERING → WOLFRAM OPTIMISATION ENGINE",
+      "codes": [
+        "/clone",
+        "/github",
+        "/wolfram"
+      ],
+      "summary": "Reconstruct authorised sites from measurements, infer implementation, source reusable open technology, verify fidelity and mathematically optimise the rebuilt system.",
+      "origin": "last-hour"
+    },
+    {
+      "title": "AUTONOMOUS BUSINESS COMMAND CENTRE",
+      "codes": [
+        "/autonomousbusiness",
+        "/ceoagent",
+        "/closedloop"
+      ],
+      "summary": "Create, operate, observe, fund, improve and kill a portfolio of autonomous AI businesses through one transparent control plane.",
+      "origin": "last-hour"
+    },
+    {
+      "title": "DARWIN VENTURE EVOLUTION ENGINE",
+      "codes": [
+        "/survivor",
+        "/selfexperiment",
+        "/agenteconomics"
+      ],
+      "summary": "Represent ventures as genomes, run experiments, measure economic fitness, mutate architecture and preserve useful traits from failed ventures.",
+      "origin": "last-hour"
+    },
+    {
+      "title": "CONTEXT-ADAPTIVE CHEAT CODE ORCHESTRATOR",
+      "codes": [
+        "/ROUTE",
+        "/BEASTMODE"
+      ],
+      "summary": "Choose the best prompt modes automatically from the task, run them in useful sequence and prevent ritualistic overuse of irrelevant modes.",
+      "origin": "last-hour"
+    },
+    {
+      "title": "REPOSITORY GOLD",
+      "codes": [
+        "/repogems",
+        "/repoarchaeology"
+      ],
+      "summary": "Find obscure but high-leverage repositories, then inspect architecture, exact modules, licences, maintenance and integration seams.",
+      "origin": "last-hour"
+    },
+    {
+      "title": "REPO → STARTUP",
+      "codes": [
+        "/repo2startup",
+        "/stackinvent"
+      ],
+      "summary": "Turn reusable repository primitives into differentiated products and new technical stacks rather than superficial wrappers.",
+      "origin": "last-hour"
+    },
+    {
+      "title": "PAPER → PRODUCT",
+      "codes": [
+        "/paper2product",
+        "/inventtech"
+      ],
+      "summary": "Translate research or technical ideas into working product primitives, experiments and commercial architectures.",
+      "origin": "last-hour"
+    },
+    {
+      "title": "AI ARCHITECTURE",
+      "codes": [
+        "/aiarchitecture",
+        "/agentgraph"
+      ],
+      "summary": "Design explicit agent/tool/state graphs, choose what should be probabilistic vs deterministic and define failure/recovery behaviour.",
+      "origin": "last-hour"
+    },
+    {
+      "title": "AGENT ECONOMICS",
+      "codes": [
+        "/agenteconomics",
+        "/expectedvalue",
+        "/objectivefunction"
+      ],
+      "summary": "Model agent actions as capital-allocation decisions using expected value, time, compute, uncertainty, downside and reusable learning.",
+      "origin": "last-hour"
+    },
+    {
+      "title": "CLOSED-LOOP SELF LEARNING",
+      "codes": [
+        "/closedloop",
+        "/selflearn",
+        "/selfexperiment"
+      ],
+      "summary": "Observe, hypothesise, test, measure, backtest and promote policy changes only when outcomes improve.",
+      "origin": "last-hour"
+    },
+    {
+      "title": "INTERFACE INVENTION",
+      "codes": [
+        "/interfaceinvention"
+      ],
+      "summary": "Design interfaces around the decision a user must make, progressive disclosure and cognitive throughput rather than decorative dashboards.",
+      "origin": "last-hour"
+    },
+    {
+      "title": "FIRST DOLLAR",
+      "codes": [
+        "/firstdollar",
+        "/profitloop"
+      ],
+      "summary": "Optimise a business experiment for legitimate time-to-first-revenue, then turn successful fulfilment into a repeatable loop.",
+      "origin": "last-hour"
+    },
+    {
+      "title": "NOT A WRAPPER",
+      "codes": [
+        "/notawrapper"
+      ],
+      "summary": "Reject generic LLM wrappers and force identification of proprietary loops, data, infrastructure, decision engines or distribution advantages.",
+      "origin": "last-hour"
+    },
+    {
+      "title": "MARKET GAP DISCOVERY ENGINE",
+      "codes": [
+        "/market",
+        "/gap"
+      ],
+      "summary": "Find evidence-backed gaps where demand, workarounds, pricing pain or technological change reveal an underserved job.",
+      "origin": "recent"
+    },
+    {
+      "title": "TOTAL INVENTION ENGINE",
+      "codes": [
+        "/creative",
+        "/startup",
+        "/github",
+        "/wolfram"
+      ],
+      "summary": "Move from fragment or observation to theory, market evidence, technology reconnaissance, architecture, category creation and build plan.",
+      "origin": "recent"
+    },
+    {
+      "title": "MOST EFFECTIVE DESIGN ENGINE",
+      "codes": [
+        "/analyst",
+        "/interfaceinvention"
+      ],
+      "summary": "Optimise UI and workflow around human cognition, usability, goal attainment and the actual behaviours required for success.",
+      "origin": "recent"
+    },
+    {
+      "title": "BUILD MODE",
+      "codes": [
+        "/build"
+      ],
+      "summary": "Stop at the first executable architecture, implement the smallest real system, test it and use failures to choose the next change.",
+      "origin": "last-hour"
+    }
+  ],
+  "ventures": [
+    {
+      "name": "Repo-to-Revenue Foundry",
+      "status": "MODELLED",
+      "thesis": "Continuously find useful OSS primitives, compile them into narrow commercial tools and test demand automatically.",
+      "stack": [
+        "GitHub archaeology",
+        "OpenAI Agents",
+        "LangGraph",
+        "Vercel",
+        "Wolfram"
+      ],
+      "model": {
+        "meanRevenue": 1129,
+        "medianRevenue": 838,
+        "p10": 166,
+        "p90": 2473,
+        "meanContributionProfit": 968,
+        "p100": 0.933,
+        "pPositive": 0.94,
+        "medianDaysToFirstDollar": 6.32
+      },
+      "risk": "Licensing, shallow differentiation, distribution",
+      "nextTest": "Pick one repo combination and pre-sell one concrete outcome before full build."
+    },
+    {
+      "name": "Autonomous Website Revenue Rescue",
+      "status": "MODELLED",
+      "thesis": "Detect broken conversion paths, generate a measured repair, show proof and sell the fix as an outcome.",
+      "stack": [
+        "Browser Use",
+        "reconstruction engine",
+        "computer vision",
+        "Vercel",
+        "Wolfram"
+      ],
+      "model": {
+        "meanRevenue": 4256,
+        "medianRevenue": 2997,
+        "p10": 571,
+        "p90": 9479,
+        "meanContributionProfit": 3514,
+        "p100": 0.958,
+        "pPositive": 0.958,
+        "medianDaysToFirstDollar": 4.15
+      },
+      "risk": "Outbound quality, consent, proving causal uplift",
+      "nextTest": "Run on a small public sample, quantify defects and validate willingness-to-pay without bulk outreach."
+    },
+    {
+      "name": "Agent Procurement Hunter",
+      "status": "MODELLED",
+      "thesis": "Find digital bounties/RFPs/contracts that agents can genuinely fulfil, price them and execute bounded work.",
+      "stack": [
+        "Money Radar",
+        "Browser Use",
+        "coding agents",
+        "Wolfram"
+      ],
+      "model": {
+        "meanRevenue": 5346,
+        "medianRevenue": 3868,
+        "p10": 706,
+        "p90": 11958,
+        "meanContributionProfit": 4084,
+        "p100": 0.936,
+        "pPositive": 0.936,
+        "medianDaysToFirstDollar": 6.04
+      },
+      "risk": "Eligibility, acceptance, fulfilment quality, platform rules",
+      "nextTest": "Collect 100 live opportunities and measure eligible/actionable fraction before bidding."
+    },
+    {
+      "name": "Public Data Refinery",
+      "status": "MODELLED",
+      "thesis": "Turn messy public datasets into continuously refreshed niche intelligence feeds with decision-ready outputs.",
+      "stack": [
+        "scrapers",
+        "knowledge graph",
+        "Wolfram",
+        "subscription frontend"
+      ],
+      "model": {
+        "meanRevenue": 1169,
+        "medianRevenue": 831,
+        "p10": 162,
+        "p90": 2579,
+        "meanContributionProfit": 1024,
+        "p100": 0.939,
+        "pPositive": 0.959,
+        "medianDaysToFirstDollar": 4.47
+      },
+      "risk": "Commodity data, niche selection, freshness burden",
+      "nextTest": "Build one high-value feed where buyers currently assemble data manually."
+    },
+    {
+      "name": "AI Stack Cost Optimizer",
+      "status": "MODELLED",
+      "thesis": "Benchmark an organisation's agent/model workload, route it through cheaper equivalent components and charge from verified savings.",
+      "stack": [
+        "eval harness",
+        "local models",
+        "Wolfram optimisation",
+        "observability"
+      ],
+      "model": {
+        "meanRevenue": 4488,
+        "medianRevenue": 3161,
+        "p10": 556,
+        "p90": 10005,
+        "meanContributionProfit": 3628,
+        "p100": 0.937,
+        "pPositive": 0.937,
+        "medianDaysToFirstDollar": 5.95
+      },
+      "risk": "Access to workloads, measurement, procurement friction",
+      "nextTest": "Benchmark one reproducible workload across providers/local models and publish verified savings."
+    },
+    {
+      "name": "Autonomous Micro-SaaS Foundry",
+      "status": "MODELLED",
+      "thesis": "Generate many tiny software experiments from observed workflows, kill weak ones and compound reusable infrastructure.",
+      "stack": [
+        "Foundry",
+        "Vercel",
+        "agents",
+        "shared billing/auth",
+        "Wolfram"
+      ],
+      "model": {
+        "meanRevenue": 266,
+        "medianRevenue": 166,
+        "p10": 0,
+        "p90": 650,
+        "meanContributionProfit": 215,
+        "p100": 0.647,
+        "pPositive": 0.778,
+        "medianDaysToFirstDollar": 14.26
+      },
+      "risk": "Distribution and idea quality dominate code generation",
+      "nextTest": "Limit to one user type and force demand evidence before each build."
+    },
+    {
+      "name": "Open-Source Managed Service Arbitrage",
+      "status": "MODELLED",
+      "thesis": "Find valuable OSS that users struggle to deploy/operate and sell reliable hosted outcomes around it.",
+      "stack": [
+        "repo radar",
+        "containers",
+        "Vercel/Render",
+        "agents",
+        "support automation"
+      ],
+      "model": {
+        "meanRevenue": 1682,
+        "medianRevenue": 1151,
+        "p10": 117,
+        "p90": 3893,
+        "meanContributionProfit": 1387,
+        "p100": 0.901,
+        "pPositive": 0.902,
+        "medianDaysToFirstDollar": 8.35
+      },
+      "risk": "Licence, support load, incumbent hosted version",
+      "nextTest": "Find projects with high usage plus repeated deployment pain and no strong hosted offering."
+    },
+    {
+      "name": "Autonomous QA + Reconstruction Lab",
+      "status": "MODELLED",
+      "thesis": "Agents compare live interfaces against references/specs, identify fidelity defects and implement verified corrections.",
+      "stack": [
+        "browser automation",
+        "vision",
+        "coding agents",
+        "reconstruction engine",
+        "Wolfram"
+      ],
+      "model": {
+        "meanRevenue": 2950,
+        "medianRevenue": 2037,
+        "p10": 306,
+        "p90": 6729,
+        "meanContributionProfit": 2402,
+        "p100": 0.918,
+        "pPositive": 0.918,
+        "medianDaysToFirstDollar": 6.97
+      },
+      "risk": "Authorisation, subjective design quality, proving value",
+      "nextTest": "Benchmark against known before/after implementations and quantify defect reduction."
+    }
+  ],
+  "wolfram": {
+    "method": "20,000-run Monte Carlo per venture using uncertain opportunity volume, conversion, price, gross margin and fixed-cost distributions.",
+    "status": "BASELINE",
+    "caveat": "These results depend entirely on stated priors. They become useful only when updated against actual funnel and revenue data.",
+    "tests": [
+      "P(revenue ≥ $100/month)",
+      "P(positive contribution profit)",
+      "P10/median/P90 monthly revenue",
+      "median time-to-first-dollar proxy",
+      "mean contribution profit",
+      "sensitivity/assumption review"
+    ],
+    "next": [
+      "Add acquisition-cost distributions",
+      "model time-to-cash",
+      "Bayesian-update priors from experiments",
+      "calculate value of information",
+      "portfolio allocation under limited capital/time"
+    ]
+  },
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Alphabet",
+      "ticker": "GOOGL",
+      "netIncome": "$132B",
+      "yoy": "+32.0%",
+      "profileStatus": "enriched"
+    },
+    {
+      "rank": 2,
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "netIncome": "$120B",
+      "yoy": "+64.7%",
+      "profileStatus": "enriched"
+    },
+    {
+      "rank": 3,
+      "name": "Apple",
+      "ticker": "AAPL",
+      "netIncome": "$112B",
+      "yoy": "+19.5%",
+      "profileStatus": "enriched"
+    },
+    {
+      "rank": 4,
+      "name": "Microsoft",
+      "ticker": "MSFT",
+      "netIncome": "$102B",
+      "yoy": "+15.5%",
+      "profileStatus": "enriched"
+    },
+    {
+      "rank": 5,
+      "name": "Meta Platforms",
+      "ticker": "META",
+      "netIncome": "$60.5B",
+      "yoy": "-3.1%",
+      "profileStatus": "enriched"
+    },
+    {
+      "rank": 6,
+      "name": "Broadcom",
+      "ticker": "AVGO",
+      "netIncome": "$23.1B",
+      "yoy": "+292.3%",
+      "profileStatus": "enriched"
+    },
+    {
+      "rank": 7,
+      "name": "Oracle",
+      "ticker": "ORCL",
+      "netIncome": "$17.1B",
+      "yoy": "+37.3%",
+      "profileStatus": "enriched"
+    },
+    {
+      "rank": 8,
+      "name": "IBM",
+      "ticker": "IBM",
+      "netIncome": "$10.6B",
+      "yoy": "+75.9%",
+      "profileStatus": "enriched"
+    },
+    {
+      "rank": 9,
+      "name": "Cisco Systems",
+      "ticker": "CSCO",
+      "netIncome": "$10.2B",
+      "yoy": "-1.4%",
+      "profileStatus": "enriched"
+    },
+    {
+      "rank": 10,
+      "name": "General Electric",
+      "ticker": "GE",
+      "netIncome": "$8.7B",
+      "yoy": "+32.8%",
+      "profileStatus": "enriched"
+    },
+    {
+      "rank": 11,
+      "name": "Micron Technology",
+      "ticker": "MU",
+      "netIncome": "$8.5B",
+      "yoy": "+997.6%",
+      "profileStatus": "enriched"
+    },
+    {
+      "rank": 12,
+      "name": "SAP",
+      "ticker": "SAP",
+      "netIncome": "$8.1B",
+      "yoy": "+139.3%",
+      "profileStatus": "enriched"
+    },
+    {
+      "rank": 13,
+      "name": "Salesforce",
+      "ticker": "CRM",
+      "netIncome": "$7.5B",
+      "yoy": "+20.3%",
+      "profileStatus": "enriched"
+    },
+    {
+      "rank": 14,
+      "name": "Adobe",
+      "ticker": "ADBE",
+      "netIncome": "$7.1B",
+      "yoy": "+28.2%",
+      "profileStatus": "enriched"
+    },
+    {
+      "rank": 15,
+      "name": "Applied Materials",
+      "ticker": "AMAT",
+      "netIncome": "$7.0B",
+      "yoy": "-2.5%",
+      "profileStatus": "enriched"
+    },
+    {
+      "rank": 16,
+      "name": "Thermo Fisher Scientific",
+      "ticker": "TMO",
+      "netIncome": "$6.7B",
+      "yoy": "+6.0%",
+      "profileStatus": "enriched"
+    },
+    {
+      "rank": 17,
+      "name": "Dell Technologies",
+      "ticker": "DELL",
+      "netIncome": "$5.9B",
+      "yoy": "+29.7%",
+      "profileStatus": "enriched"
+    },
+    {
+      "rank": 18,
+      "name": "Qualcomm",
+      "ticker": "QCOM",
+      "netIncome": "$5.5B",
+      "yoy": "-45.4%",
+      "profileStatus": "enriched"
+    },
+    {
+      "rank": 19,
+      "name": "Texas Instruments",
+      "ticker": "TXN",
+      "netIncome": "$5.0B",
+      "yoy": "+4.2%",
+      "profileStatus": "enriched"
+    },
+    {
+      "rank": 20,
+      "name": "NetEase",
+      "ticker": "NTES",
+      "netIncome": "$5.0B",
+      "yoy": "+20.0%",
+      "profileStatus": "enriched"
+    },
+    {
+      "rank": 21,
+      "name": "GE Vernova",
+      "ticker": "GEV",
+      "netIncome": "$4.9B",
+      "yoy": "+214.7%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 22,
+      "name": "Advanced Micro Devices",
+      "ticker": "AMD",
+      "netIncome": "$4.3B",
+      "yoy": "+164.2%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 23,
+      "name": "Amphenol",
+      "ticker": "APH",
+      "netIncome": "$4.3B",
+      "yoy": "+76.2%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 24,
+      "name": "Automatic Data Processing",
+      "ticker": "ADP",
+      "netIncome": "$4.1B",
+      "yoy": "+8.7%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 25,
+      "name": "KLA",
+      "ticker": "KLAC",
+      "netIncome": "$4.1B",
+      "yoy": "+47.1%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 26,
+      "name": "Intuit",
+      "ticker": "INTU",
+      "netIncome": "$3.9B",
+      "yoy": "+30.6%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 27,
+      "name": "Danaher",
+      "ticker": "DHR",
+      "netIncome": "$3.6B",
+      "yoy": "-7.3%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 28,
+      "name": "Arista Networks",
+      "ticker": "ANET",
+      "netIncome": "$3.5B",
+      "yoy": "+23.1%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 29,
+      "name": "AppLovin",
+      "ticker": "APP",
+      "netIncome": "$3.3B",
+      "yoy": "+111.0%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 30,
+      "name": "Trane Technologies",
+      "ticker": "TT",
+      "netIncome": "$2.9B",
+      "yoy": "+13.7%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 31,
+      "name": "Ericsson",
+      "ticker": "ERIC",
+      "netIncome": "$2.9B",
+      "yoy": "+153201.9%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 32,
+      "name": "Marvell Technology",
+      "ticker": "MRVL",
+      "netIncome": "$2.7B",
+      "yoy": "+$3.6B",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 33,
+      "name": "HP",
+      "ticker": "HPQ",
+      "netIncome": "$2.5B",
+      "yoy": "-8.9%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 34,
+      "name": "Emerson Electric",
+      "ticker": "EMR",
+      "netIncome": "$2.3B",
+      "yoy": "+16.5%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 35,
+      "name": "Vistance Networks",
+      "ticker": "VISN",
+      "netIncome": "$2.3B",
+      "yoy": "+$2.6B",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 36,
+      "name": "Analog Devices",
+      "ticker": "ADI",
+      "netIncome": "$2.3B",
+      "yoy": "+38.7%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 37,
+      "name": "Cognizant",
+      "ticker": "CTSH",
+      "netIncome": "$2.2B",
+      "yoy": "-0.4%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 38,
+      "name": "Motorola Solutions",
+      "ticker": "MSI",
+      "netIncome": "$2.2B",
+      "yoy": "+36.6%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 39,
+      "name": "JOYY",
+      "ticker": "JOYY",
+      "netIncome": "$2.1B",
+      "yoy": "+$2.2B",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 40,
+      "name": "NXP Semiconductors",
+      "ticker": "NXPI",
+      "netIncome": "$2.0B",
+      "yoy": "-19.5%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 41,
+      "name": "Zoom Communications",
+      "ticker": "ZM",
+      "netIncome": "$1.9B",
+      "yoy": "+88.1%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 42,
+      "name": "Fortinet",
+      "ticker": "FTNT",
+      "netIncome": "$1.9B",
+      "yoy": "+6.2%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 43,
+      "name": "ServiceNow",
+      "ticker": "NOW",
+      "netIncome": "$1.7B",
+      "yoy": "+22.7%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 44,
+      "name": "Palantir Technologies",
+      "ticker": "PLTR",
+      "netIncome": "$1.6B",
+      "yoy": "+251.6%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 45,
+      "name": "Roper Technologies",
+      "ticker": "ROP",
+      "netIncome": "$1.5B",
+      "yoy": "-0.8%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 46,
+      "name": "First Solar",
+      "ticker": "FSLR",
+      "netIncome": "$1.5B",
+      "yoy": "+18.3%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 47,
+      "name": "Ametek",
+      "ticker": "AME",
+      "netIncome": "$1.5B",
+      "yoy": "+7.6%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 48,
+      "name": "Leidos Holdings",
+      "ticker": "LDOS",
+      "netIncome": "$1.4B",
+      "yoy": "+15.5%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 49,
+      "name": "Otis Worldwide",
+      "ticker": "OTIS",
+      "netIncome": "$1.4B",
+      "yoy": "-15.9%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 50,
+      "name": "Vertiv Holdings",
+      "ticker": "VRT",
+      "netIncome": "$1.3B",
+      "yoy": "+168.8%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 51,
+      "name": "Synopsys",
+      "ticker": "SNPS",
+      "netIncome": "$1.3B",
+      "yoy": "-41.1%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 52,
+      "name": "Block",
+      "ticker": "XYZ",
+      "netIncome": "$1.3B",
+      "yoy": "-54.9%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 53,
+      "name": "Agilent Technologies",
+      "ticker": "A",
+      "netIncome": "$1.3B",
+      "yoy": "+1.1%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 54,
+      "name": "NetApp",
+      "ticker": "NTAP",
+      "netIncome": "$1.3B",
+      "yoy": "+7.6%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 55,
+      "name": "Shopify",
+      "ticker": "SHOP",
+      "netIncome": "$1.2B",
+      "yoy": "-39.0%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 56,
+      "name": "Palo Alto Networks",
+      "ticker": "PANW",
+      "netIncome": "$1.1B",
+      "yoy": "-56.0%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 57,
+      "name": "Autodesk",
+      "ticker": "ADSK",
+      "netIncome": "$1.1B",
+      "yoy": "+1.1%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 58,
+      "name": "Cadence Design Systems",
+      "ticker": "CDNS",
+      "netIncome": "$1.1B",
+      "yoy": "+5.1%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 59,
+      "name": "Check Point Software",
+      "ticker": "CHKP",
+      "netIncome": "$1.1B",
+      "yoy": "+25.0%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 60,
+      "name": "Super Micro Computer",
+      "ticker": "SMCI",
+      "netIncome": "$1.0B",
+      "yoy": "-9.0%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 61,
+      "name": "Xunlei",
+      "ticker": "XNET",
+      "netIncome": "$1.0B",
+      "yoy": "+86177.0%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 62,
+      "name": "Gen Digital",
+      "ticker": "GEN",
+      "netIncome": "$973M",
+      "yoy": "+51.3%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 63,
+      "name": "Veralto",
+      "ticker": "VLTO",
+      "netIncome": "$940M",
+      "yoy": "+12.8%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 64,
+      "name": "Veeva Systems",
+      "ticker": "VEEV",
+      "netIncome": "$909M",
+      "yoy": "+27.3%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 65,
+      "name": "Verisk Analytics",
+      "ticker": "VRSK",
+      "netIncome": "$908M",
+      "yoy": "-5.2%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 66,
+      "name": "Arm Holdings",
+      "ticker": "ARM",
+      "netIncome": "$904M",
+      "yoy": "+14.1%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 67,
+      "name": "Hubbell",
+      "ticker": "HUBB",
+      "netIncome": "$887M",
+      "yoy": "+13.9%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 68,
+      "name": "Electronic Arts",
+      "ticker": "EA",
+      "netIncome": "$887M",
+      "yoy": "-20.9%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 69,
+      "name": "GlobalFoundries",
+      "ticker": "GFS",
+      "netIncome": "$885M",
+      "yoy": "+$1.2B",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 70,
+      "name": "Flex",
+      "ticker": "FLEX",
+      "netIncome": "$880M",
+      "yoy": "+5.0%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 71,
+      "name": "GoDaddy",
+      "ticker": "GDDY",
+      "netIncome": "$875M",
+      "yoy": "-6.6%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 72,
+      "name": "Mettler Toledo",
+      "ticker": "MTD",
+      "netIncome": "$869M",
+      "yoy": "+0.7%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 73,
+      "name": "Rockwell Automation",
+      "ticker": "ROK",
+      "netIncome": "$869M",
+      "yoy": "-8.8%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 74,
+      "name": "Keysight Technologies",
+      "ticker": "KEYS",
+      "netIncome": "$850M",
+      "yoy": "+38.4%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 75,
+      "name": "Illumina",
+      "ticker": "ILMN",
+      "netIncome": "$850M",
+      "yoy": "+$2.1B",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 76,
+      "name": "Celestica",
+      "ticker": "CLS",
+      "netIncome": "$833M",
+      "yoy": "+94.5%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 77,
+      "name": "Verisign",
+      "ticker": "VRSN",
+      "netIncome": "$826M",
+      "yoy": "+5.1%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 78,
+      "name": "Baidu",
+      "ticker": "BIDU",
+      "netIncome": "$799M",
+      "yoy": "-75.5%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 79,
+      "name": "SS&C Technologies",
+      "ticker": "SSNC",
+      "netIncome": "$799M",
+      "yoy": "+4.9%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 80,
+      "name": "Bio-Rad Laboratories",
+      "ticker": "BIO",
+      "netIncome": "$760M",
+      "yoy": "+$2.6B",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 81,
+      "name": "PTC",
+      "ticker": "PTC",
+      "netIncome": "$734M",
+      "yoy": "+95.0%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 82,
+      "name": "Qnity Electronics",
+      "ticker": "Q",
+      "netIncome": "$729M",
+      "yoy": "+0.7%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 83,
+      "name": "Ubiquiti",
+      "ticker": "UI",
+      "netIncome": "$712M",
+      "yoy": "+103.4%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 84,
+      "name": "Logitech",
+      "ticker": "LOGI",
+      "netIncome": "$711M",
+      "yoy": "+12.6%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 85,
+      "name": "Workday",
+      "ticker": "WDAY",
+      "netIncome": "$693M",
+      "yoy": "+31.7%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 86,
+      "name": "F5",
+      "ticker": "FFIV",
+      "netIncome": "$692M",
+      "yoy": "+22.2%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 87,
+      "name": "Jabil",
+      "ticker": "JBL",
+      "netIncome": "$657M",
+      "yoy": "-52.7%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 88,
+      "name": "Waters",
+      "ticker": "WAT",
+      "netIncome": "$643M",
+      "yoy": "+0.8%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 89,
+      "name": "Full Truck Alliance",
+      "ticker": "YMM",
+      "netIncome": "$638M",
+      "yoy": "+49.0%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 90,
+      "name": "Monolithic Power Systems",
+      "ticker": "MPWR",
+      "netIncome": "$621M",
+      "yoy": "-61.0%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 91,
+      "name": "Match Group",
+      "ticker": "MTCH",
+      "netIncome": "$613M",
+      "yoy": "+11.3%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 92,
+      "name": "NICE",
+      "ticker": "NICE",
+      "netIncome": "$612M",
+      "yoy": "+39.3%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 93,
+      "name": "FactSet",
+      "ticker": "FDS",
+      "netIncome": "$597M",
+      "yoy": "+11.2%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 94,
+      "name": "Nextpower",
+      "ticker": "NXT",
+      "netIncome": "$586M",
+      "yoy": "+13.3%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 95,
+      "name": "Teradyne",
+      "ticker": "TER",
+      "netIncome": "$554M",
+      "yoy": "+2.2%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 96,
+      "name": "Fortive",
+      "ticker": "FTV",
+      "netIncome": "$533M",
+      "yoy": "-36.0%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 97,
+      "name": "Reddit",
+      "ticker": "RDDT",
+      "netIncome": "$530M",
+      "yoy": "+$1.0B",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 98,
+      "name": "Sabre",
+      "ticker": "SABR",
+      "netIncome": "$525M",
+      "yoy": "+$803M",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 99,
+      "name": "Dropbox",
+      "ticker": "DBX",
+      "netIncome": "$508M",
+      "yoy": "+12.4%",
+      "profileStatus": "queued"
+    },
+    {
+      "rank": 100,
+      "name": "CACI International",
+      "ticker": "CACI",
+      "netIncome": "$500M",
+      "yoy": "+19.0%",
+      "profileStatus": "queued"
+    }
+  ],
+  "companyProfiles": {
+    "Alphabet": {
+      "does": "Search, YouTube, advertising, cloud and AI platforms.",
+      "why": "High-margin intent advertising at enormous scale, YouTube monetisation and growing cloud demand.",
+      "moat": "Distribution, user intent data, advertiser liquidity, infrastructure and AI research.",
+      "lesson": "Own a repeated high-intent behaviour, then layer infrastructure and adjacent products around it."
+    },
+    "NVIDIA": {
+      "does": "Accelerated-computing chips, systems, networking and the CUDA software ecosystem.",
+      "why": "AI training and inference demand makes scarce high-performance compute strategically valuable.",
+      "moat": "CUDA ecosystem, hardware/software co-design, developer adoption and supply-chain scale.",
+      "lesson": "A software ecosystem can make hardware economics much stronger than hardware alone."
+    },
+    "Apple": {
+      "does": "Consumer devices plus services, payments, subscriptions and an integrated software ecosystem.",
+      "why": "Premium hardware margins combine with a huge installed base that repeatedly buys high-margin services.",
+      "moat": "Brand, distribution, silicon, ecosystem integration and switching costs.",
+      "lesson": "A profitable platform compounds when hardware distribution creates recurring software/service revenue."
+    },
+    "Microsoft": {
+      "does": "Enterprise software, Azure cloud, security, developer tools, AI and productivity software.",
+      "why": "Recurring enterprise contracts plus cloud consumption give Microsoft multiple high-margin monetisation surfaces.",
+      "moat": "Enterprise distribution, identity, developer ecosystem, installed software and cloud scale.",
+      "lesson": "Distribution into business workflows can be as valuable as model capability."
+    },
+    "Meta Platforms": {
+      "does": "Social networks and messaging monetised primarily through digital advertising.",
+      "why": "Massive attention inventory plus increasingly effective ad ranking makes advertiser ROI and margins strong.",
+      "moat": "Network effects, global reach, recommendation systems and advertiser demand.",
+      "lesson": "If an AI system can measurably improve customer acquisition, monetisation can scale extremely quickly."
+    },
+    "Broadcom": {
+      "does": "Semiconductors, networking silicon and infrastructure software.",
+      "why": "AI networking and specialised silicon demand combine with high-margin enterprise software assets.",
+      "moat": "Deep IP, customer integration, switching costs and mission-critical infrastructure.",
+      "lesson": "Boring infrastructure with hard technical constraints can be more profitable than visible consumer apps."
+    },
+    "Oracle": {
+      "does": "Databases, enterprise software and cloud infrastructure.",
+      "why": "Mission-critical database lock-in, recurring support/software revenue and expanding cloud workloads.",
+      "moat": "Installed enterprise data layer and very high switching costs.",
+      "lesson": "Owning the system of record creates pricing power and durable expansion paths."
+    },
+    "IBM": {
+      "does": "Enterprise software, infrastructure, consulting and hybrid-cloud/AI services.",
+      "why": "Large enterprise relationships and mission-critical software generate recurring, sticky revenue.",
+      "moat": "Enterprise trust, legacy integration depth and regulated-industry relationships.",
+      "lesson": "Integration and reliability around AI can be a business even when the core model is commoditised."
+    },
+    "Cisco Systems": {
+      "does": "Networking hardware, security and recurring infrastructure software.",
+      "why": "Enterprise networks are mission-critical and increasingly sold with recurring software/security layers.",
+      "moat": "Installed base, channel, interoperability and enterprise trust.",
+      "lesson": "Attach recurring software to indispensable infrastructure."
+    },
+    "General Electric": {
+      "does": "Industrial technology businesses with high-value engineered equipment and services.",
+      "why": "Installed equipment creates long-lived service, parts and maintenance economics.",
+      "moat": "Certification, engineering depth, installed base and high switching costs.",
+      "lesson": "The best recurring revenue can originate from assets that customers cannot casually replace."
+    },
+    "Micron Technology": {
+      "does": "Memory and storage semiconductors.",
+      "why": "AI servers require large amounts of high-value memory, with supply constraints amplifying pricing.",
+      "moat": "Capital intensity, process know-how and manufacturing scale.",
+      "lesson": "Find the constrained component every fast-growing system cannot function without."
+    },
+    "SAP": {
+      "does": "Enterprise resource planning and business software.",
+      "why": "Core finance, operations and supply-chain workflows are deeply embedded and migrating to recurring cloud contracts.",
+      "moat": "System-of-record status, data gravity and organisational switching costs.",
+      "lesson": "Deep workflow ownership produces long retention and expansion revenue."
+    },
+    "Salesforce": {
+      "does": "CRM, sales, service, data and AI software.",
+      "why": "Recurring subscriptions sit directly in revenue-generating business workflows.",
+      "moat": "Customer data, ecosystem, integrations and sales distribution.",
+      "lesson": "Software closest to revenue can justify higher pricing when it proves ROI."
+    },
+    "Adobe": {
+      "does": "Creative, document and marketing software.",
+      "why": "Professional workflows rely on category-standard tools sold through subscriptions.",
+      "moat": "File formats, professional habit, ecosystem and brand.",
+      "lesson": "Own the professional workflow and the artefact format around it."
+    },
+    "Applied Materials": {
+      "does": "Semiconductor manufacturing equipment.",
+      "why": "Chipmakers must buy highly specialised tools to increase capacity and process sophistication.",
+      "moat": "Extreme technical difficulty, service relationships and process IP.",
+      "lesson": "Toolmakers can monetise a boom more reliably than many end applications."
+    },
+    "Thermo Fisher Scientific": {
+      "does": "Scientific instruments, laboratory products and services.",
+      "why": "Recurring consumables and services attach to a massive installed scientific-instrument base.",
+      "moat": "Regulated workflows, distribution breadth and installed equipment.",
+      "lesson": "Consumables and services around specialised infrastructure create compounding economics."
+    },
+    "Dell Technologies": {
+      "does": "Enterprise and consumer computing, servers, storage and infrastructure.",
+      "why": "AI infrastructure refresh cycles and enterprise purchasing relationships support large volumes.",
+      "moat": "Supply chain, enterprise channel and infrastructure integration.",
+      "lesson": "Distribution and procurement convenience can remain valuable in commoditising hardware markets."
+    },
+    "Qualcomm": {
+      "does": "Wireless chips and technology licensing.",
+      "why": "Chip sales are supplemented by high-margin licensing of communications IP.",
+      "moat": "Patent portfolio, standards participation and modem expertise.",
+      "lesson": "Licensable technical primitives can create revenue independent of operating every end product."
+    },
+    "Texas Instruments": {
+      "does": "Analogue and embedded semiconductors.",
+      "why": "Thousands of long-lived chips sell into industrial and automotive systems with stable demand.",
+      "moat": "Manufacturing scale, catalogue breadth and design-in longevity.",
+      "lesson": "Huge profitable businesses can be built from many small indispensable components."
+    },
+    "NetEase": {
+      "does": "Games, online services and digital content.",
+      "why": "Hit games create high-margin virtual-goods and recurring engagement revenue.",
+      "moat": "Content IP, live operations and player communities.",
+      "lesson": "Digital goods have powerful margins when attached to durable engagement."
+    }
+  },
+  "learning": {
+    "observedRevenue": 0,
+    "observedPaidVentures": 0,
+    "predictionErrors": [],
+    "rules": [
+      "Predicted revenue is labelled MODELLED until verified by an actual transaction.",
+      "Every experiment records assumption, action, cost, result and prediction error.",
+      "A failed venture contributes reusable knowledge before it is killed.",
+      "Policy changes must beat the previous policy in backtests or bounded live tests.",
+      "Do not optimise proxy metrics when cash, retention or verified user value can be observed."
+    ],
+    "loop": [
+      "OBSERVE",
+      "HYPOTHESISE",
+      "MODEL",
+      "EXPERIMENT",
+      "MEASURE",
+      "COMPARE",
+      "UPDATE",
+      "PROMOTE / REJECT"
+    ]
+  },
+  "sources": [
+    {
+      "title": "CompaniesRanked: Most profitable technology companies FY2025",
+      "url": "https://www.companiesranked.com/en/most-profitable-technology-companies",
+      "note": "100-company profit ranking compiled from SEC EDGAR; data page updated September 2026."
+    },
+    {
+      "title": "Microsoft FY2026 Q4 / FY2026 results",
+      "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+      "note": "Example current primary-source earnings evidence."
+    }
+  ]
+}
