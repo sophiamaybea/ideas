@@ -3,30 +3,64 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#000000">
-<title>Engineering Intelligence</title>
+<meta name="theme-color" content="#f5efe9">
+<meta name="color-scheme" content="light">
+<title>Engineering Intelligence / System Atlas</title>
+<meta name="description" content="A living engineering and economic intelligence atlas for repositories, prompts, ventures, companies, projects and learning loops.">
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-<div id="boot">LOADING INTELLIGENCE...</div>
+<a class="skip" href="#view">SKIP TO INTELLIGENCE</a>
+<div id="boot" aria-live="polite">
+  <div class="bootMark">EI</div>
+  <p>ASSEMBLING SYSTEM ATLAS</p>
+</div>
+
 <div id="app" hidden>
-<header class="topbar">
-  <button class="brand" data-route="home">EI<span class="dot">●</span></button>
-  <div class="run-state"><span id="liveDot"></span><span id="runLabel">HOURLY INTELLIGENCE</span></div>
-  <button class="menuBtn" id="menuBtn" aria-label="Open navigation">MENU</button>
+<header class="masthead">
+  <button class="identity" data-route="home" aria-label="Engineering Intelligence home">
+    <span class="identityMark">EI</span>
+    <span class="identityText">ENGINEERING<br>INTELLIGENCE</span>
+  </button>
+  <div class="mastMeta">
+    <span class="live"><i id="liveDot"></i>LIVE / HOURLY</span>
+    <span id="headerUpdate">SYNCING</span>
+  </div>
+  <button class="menuBtn" id="menuBtn" aria-controls="rail" aria-expanded="false">INDEX</button>
 </header>
-<nav class="rail" id="rail" aria-label="Main navigation">
-  <button data-route="home">NOW</button><button data-route="repos">REPOS</button>
-  <button data-route="prompts">PROMPTS</button><button data-route="ventures">VENTURES</button>
-  <button data-route="companies">COMPANIES</button><button data-route="projects">CURRENT</button>
-  <button data-route="learning">LEARNING</button>
-</nav>
-<main id="view"></main>
-<footer>
-  <span>ENGINEERING INTELLIGENCE</span><span id="footerUpdate"></span>
+
+<div class="shell">
+  <aside class="railWrap">
+    <nav class="rail" id="rail" aria-label="Intelligence index">
+      <p class="railLabel">SYSTEM INDEX</p>
+      <button data-route="home"><b>00</b><span>ATLAS</span></button>
+      <button data-route="repos"><b>01</b><span>REPO RADAR</span></button>
+      <button data-route="prompts"><b>02</b><span>PROMPT LIBRARY</span></button>
+      <button data-route="ventures"><b>03</b><span>VENTURE LAB</span></button>
+      <button data-route="companies"><b>04</b><span>MONEY MAP</span></button>
+      <button data-route="projects"><b>05</b><span>CURRENT SYSTEMS</span></button>
+      <button data-route="learning"><b>06</b><span>LEARNING LOOP</span></button>
+    </nav>
+    <div class="railFoot">
+      <span>BRANCH</span>
+      <strong>engineering-intelligence</strong>
+    </div>
+  </aside>
+
+  <main id="view" tabindex="-1"></main>
+</div>
+
+<footer class="footer">
+  <span>ENGINEERING INTELLIGENCE / LIVE SYSTEM ATLAS</span>
+  <span id="footerUpdate"></span>
 </footer>
 </div>
-<dialog id="detailDialog"><button class="closeDialog" aria-label="Close">×</button><div id="dialogContent"></div></dialog>
+
+<dialog id="detailDialog" aria-labelledby="dialogTitle">
+  <button class="closeDialog" aria-label="Close detail">×</button>
+  <div id="dialogContent"></div>
+</dialog>
+
 <script src="/app.js"></script>
 </body>
 </html>
