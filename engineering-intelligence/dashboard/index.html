@@ -3,63 +3,54 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#f5efe9">
+<meta name="theme-color" content="#f2f2ed">
 <meta name="color-scheme" content="light">
-<title>Engineering Intelligence / System Atlas</title>
-<meta name="description" content="A living engineering and economic intelligence atlas for repositories, prompts, ventures, companies, projects and learning loops.">
+<title>Engineering Intelligence / Index</title>
+<meta name="description" content="A living node-map of repositories, prompts, ventures, companies, systems and learning.">
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-<a class="skip" href="#view">SKIP TO INTELLIGENCE</a>
-<div id="boot" aria-live="polite">
-  <div class="bootMark">EI</div>
-  <p>ASSEMBLING SYSTEM ATLAS</p>
-</div>
+<a class="skip" href="#indexCard">Skip to index</a>
+<div id="boot"><span class="bootDot"></span><span>ASSEMBLING INDEX</span></div>
 
 <div id="app" hidden>
-<header class="masthead">
-  <button class="identity" data-route="home" aria-label="Engineering Intelligence home">
-    <span class="identityMark">EI</span>
-    <span class="identityText">ENGINEERING<br>INTELLIGENCE</span>
-  </button>
-  <div class="mastMeta">
-    <span class="live"><i id="liveDot"></i>LIVE / HOURLY</span>
-    <span id="headerUpdate">SYNCING</span>
-  </div>
-  <button class="menuBtn" id="menuBtn" aria-controls="rail" aria-expanded="false">INDEX</button>
-</header>
-
-<div class="shell">
-  <aside class="railWrap">
-    <nav class="rail" id="rail" aria-label="Intelligence index">
-      <p class="railLabel">SYSTEM INDEX</p>
-      <button data-route="home"><b>00</b><span>ATLAS</span></button>
-      <button data-route="repos"><b>01</b><span>REPO RADAR</span></button>
-      <button data-route="prompts"><b>02</b><span>PROMPT LIBRARY</span></button>
-      <button data-route="ventures"><b>03</b><span>VENTURE LAB</span></button>
-      <button data-route="companies"><b>04</b><span>MONEY MAP</span></button>
-      <button data-route="projects"><b>05</b><span>CURRENT SYSTEMS</span></button>
-      <button data-route="learning"><b>06</b><span>LEARNING LOOP</span></button>
-    </nav>
-    <div class="railFoot">
-      <span>BRANCH</span>
-      <strong>engineering-intelligence</strong>
+  <div class="viewport" id="viewport">
+    <div class="graphViewport" id="graphViewport" aria-label="Engineering Intelligence relationship map">
+      <div class="graphStage" id="graphStage">
+        <svg class="edges" id="edges" viewBox="0 0 1600 1000" preserveAspectRatio="none" aria-hidden="true"></svg>
+        <div id="nodes"></div>
+      </div>
     </div>
-  </aside>
 
-  <main id="view" tabindex="-1"></main>
+    <header class="microHeader">
+      <button class="microBrand" id="homeBtn"><span class="statusDot"></span> ENGINEERING INTELLIGENCE</button>
+      <span id="syncLabel">SYNCING</span>
+    </header>
+
+    <aside class="indexCard" id="indexCard" aria-label="Engineering Intelligence index">
+      <div class="indexHead">
+        <span><i class="marker circle accent"></i> INDEX</span>
+        <button id="collapseIndex" aria-label="Collapse index">−</button>
+      </div>
+      <p class="indexIntro">A living map of what we are building, the technology underneath it, what might make money, and what reality has actually verified.</p>
+      <div class="hairline"></div>
+      <div id="indexSections"></div>
+      <div class="indexFoot">
+        <button id="resetGraph">RESET MAP</button>
+        <span id="zoomReadout">100%</span>
+      </div>
+    </aside>
+
+    <aside class="detailCard" id="detailCard" hidden>
+      <button class="detailClose" id="detailClose" aria-label="Close detail">×</button>
+      <div id="detailBody"></div>
+    </aside>
+
+    <div class="mapLegend">
+      <span>DRAG TO PAN</span><span>SCROLL TO ZOOM</span><span>CLICK A NODE</span>
+    </div>
+  </div>
 </div>
-
-<footer class="footer">
-  <span>ENGINEERING INTELLIGENCE / LIVE SYSTEM ATLAS</span>
-  <span id="footerUpdate"></span>
-</footer>
-</div>
-
-<dialog id="detailDialog" aria-labelledby="dialogTitle">
-  <button class="closeDialog" aria-label="Close detail">×</button>
-  <div id="dialogContent"></div>
-</dialog>
 
 <script src="/app.js"></script>
 </body>
