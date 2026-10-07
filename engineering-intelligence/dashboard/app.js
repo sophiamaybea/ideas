@@ -1,6 +1,6 @@
 const REMOTE="https://raw.githubusercontent.com/sophiamaybea/ideas/engineering-intelligence/engineering-intelligence/dashboard/data/dashboard.json";
 let D=null, route=location.hash.slice(1)||"home";
-const $=s=>document.querySelector(s), esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\\\"":"&quot;","'":"&#039;"}[m]));
+const $=s=>document.querySelector(s), esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]));
 async function load(){try{const r=await fetch(REMOTE+"?v="+Date.now());if(!r.ok)throw 0;D=await r.json()}catch(e){D=await fetch("/data/dashboard.json").then(r=>r.json())}$("#boot").hidden=true;$("#app").hidden=false;$("#footerUpdate").textContent="UPDATED "+new Date(D.meta.lastUpdated).toLocaleString();bind();render()}
 function bind(){document.body.addEventListener("click",e=>{const b=e.target.closest("[data-route]");if(b){location.hash=b.dataset.route;route=b.dataset.route;render();$("#rail").classList.remove("open")}const d=e.target.closest("[data-detail]");if(d)openDetail(d.dataset.detail,d.dataset.key)});window.addEventListener("hashchange",()=>{route=location.hash.slice(1)||"home";render()});$(".closeDialog").onclick=()=>$("#detailDialog").close();$("#detailDialog").addEventListener("click",e=>{if(e.target===$("#detailDialog"))$("#detailDialog").close()})}
 function shell(title,sub,inner){return `<section class="sectionHead"><h1>${title}</h1><p>${sub}</p></section>${inner}`}
