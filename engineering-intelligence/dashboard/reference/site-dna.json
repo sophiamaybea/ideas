@@ -1,64 +1,83 @@
 {
   "reference": "https://andrewtrousdale.com/",
-  "purpose": "Reconstruct the reference site's interaction grammar and visual system for Engineering Intelligence using original Engineering Intelligence content and data.",
-  "evidence": {
-    "publicSite": "OBSERVED",
-    "siteinspireScreenshot": "OBSERVED",
-    "independentReviews": "OBSERVED",
-    "exactSourceCSS": "UNKNOWN",
-    "exactFontFiles": "NOT_COPIED"
+  "purpose": "Reconstruct the reference site's visual and interaction system for Engineering Intelligence while keeping Engineering Intelligence's own content, data and identity.",
+  "observedReference": {
+    "homeIndexSections": [
+      "Initiatives",
+      "Research",
+      "Artifacts",
+      "Paths"
+    ],
+    "graphDescription": "Public design coverage describes the homepage as a graph-like visual diagram resembling sentence syntax, paired with a wiki-style index/dropdown on the right.",
+    "indexBehaviour": "Visitors can explore project/research entries from the index without leaving the spatial interface.",
+    "sourceEvidence": [
+      "https://andrewtrousdale.com/",
+      "https://www.narrowlabs.design/website-inspiration/andrew-trousdale",
+      "https://www.landing.love/sites/andrewtrousdale/"
+    ]
   },
   "visualSystem": {
-    "background": "#f2f2ed",
-    "foreground": "#11110f",
-    "card": "#fbfbf8",
-    "accent": "#f05a28",
-    "line": "rgba(17,17,15,.58)",
+    "background": "#f2f2ee",
+    "foreground": "#11110e",
+    "card": "#fbfbf7",
+    "accent": "#f15a29",
+    "line": "rgba(17,17,14,.48)",
     "typography": {
-      "referenceFamily": "Brunswick Grotesque reported by design-index sources",
-      "implementation": "system grotesk stack to avoid copying proprietary font assets",
-      "bodyScale": "11–13px desktop, 10–12px mobile",
-      "labels": "7–10px uppercase",
-      "tracking": "slightly tight",
-      "lineHeight": "1.1–1.35"
+      "referenceFamily": "Brunswick Grotesque is reported by independent design-index sources.",
+      "implementation": "System grotesk stack. No proprietary font files copied.",
+      "principle": "Small, precise, low-contrast labels and compact body copy rather than dashboard-scale headings."
     },
     "geometry": {
-      "composition": "full-viewport graph field + compact floating index card",
-      "cardWidth": "~320–360px desktop",
-      "borders": "1px black / dotted separators",
-      "radius": "2–4px",
-      "shadows": "very restrained"
+      "composition": "Large pannable graph canvas with small floating index card.",
+      "graph": "Hierarchical syntax-tree / mind-map structure rather than radial dashboard widgets.",
+      "card": "Compact right-side index with dotted separators and minimal shadow."
     }
   },
   "informationArchitecture": {
-    "primary": "graph of connected concepts/projects",
-    "secondary": "floating INDEX card with accordion sections",
-    "tertiary": "small floating detail card opened from a node or index row"
+    "reference": [
+      "Initiatives",
+      "Research",
+      "Artifacts",
+      "Paths"
+    ],
+    "engineeringIntelligenceMapping": {
+      "Current systems": "Active initiatives and systems already being built.",
+      "Repository radar": "Technical research and open-source reconnaissance.",
+      "Prompt library": "Reusable intellectual and engineering artefacts.",
+      "Venture lab": "Commercial experiments and modelled venture candidates.",
+      "Money map": "Economic reference layer.",
+      "Learning loop": "Outcome memory and adaptive policy."
+    },
+    "graphRules": [
+      "Every top-level domain is a visible branch from Engineering Intelligence.",
+      "Every currently indexed item in projects/repos/prompts/ventures/learning appears as a leaf.",
+      "Top profitable companies appear as map leaves; the full 100-company list remains in the Index.",
+      "Exact text matches between repository usage and active systems, or repository names and venture stacks, create secondary semantic edges.",
+      "Clicking an Index row or node focuses the same graph object."
+    ]
   },
   "interaction": {
     "graph": [
-      "pan",
-      "wheel zoom",
+      "drag-to-pan",
+      "wheel/pinch-style zoom",
       "node hover",
       "node click",
-      "cluster focus"
+      "branch focus",
+      "semantic-neighbour highlighting"
     ],
     "index": [
-      "accordion expand/collapse",
-      "hover-link graph node",
-      "route/cluster focus"
+      "accordion sections",
+      "section descriptions",
+      "status/value columns",
+      "full item expansion",
+      "click-to-focus"
     ],
     "detail": [
-      "open from node/list row",
-      "close without leaving graph"
+      "context panel",
+      "deep-linkable map/node query",
+      "does not navigate away from the map"
     ],
-    "responsive": "mobile uses bottom index sheet while graph remains visible"
-  },
-  "motion": {
-    "general": "minimal functional motion",
-    "easing": "ease-out, short 140–240ms",
-    "graph": "transform-based pan/zoom with no decorative continuous animation",
-    "accessibility": "prefers-reduced-motion removes transform animation"
+    "responsive": "Index becomes a bottom sheet on narrow screens while the map remains the primary surface."
   },
   "implementation": {
     "stack": [
@@ -67,34 +86,55 @@
       "vanilla JavaScript",
       "SVG"
     ],
-    "rationale": "Current dataset is small. A dependency-free SVG/DOM implementation matches the reference more closely and avoids unnecessary graph-library overhead.",
-    "consideredRepositories": [
+    "repositoryRecon": [
       {
         "repository": "d3/d3-force",
+        "licence": "ISC",
         "decision": "LEARN",
-        "reason": "useful force-layout primitive but unnecessary for a deliberately composed small graph"
+        "reason": "Useful layout primitive, but current graph benefits from deliberate syntax-tree composition."
       },
       {
         "repository": "jacomyal/sigma.js",
+        "licence": "MIT",
         "decision": "WATCH",
-        "reason": "excellent large-graph renderer, excessive for current node count"
+        "reason": "Excellent large-graph renderer, excessive for current node count."
       },
       {
         "repository": "cytoscape/cytoscape.js",
+        "licence": "MIT",
         "decision": "WATCH",
-        "reason": "strong graph analysis/visualisation, excessive for current visual-only interaction"
+        "reason": "Strong graph analysis and visualisation, not required for the current lightweight renderer."
+      },
+      {
+        "repository": "xyflow/xyflow",
+        "licence": "MIT",
+        "decision": "WATCH",
+        "reason": "Strong interactive node UI framework. Keep in reserve if nested editable graphs or thousands of nodes become necessary."
+      },
+      {
+        "repository": "daniel-techAI/DLportfolio",
+        "licence": "MIT",
+        "decision": "LEARN",
+        "reason": "Current example of a hierarchical portfolio mind map with fit-to-view, nested graph navigation and accessible semantic alternatives."
       }
     ]
   },
   "contentBoundary": {
-    "reuse": "layout grammar, node-map metaphor, compact index interaction, typographic scale, spatial feel",
+    "reproduce": [
+      "spatial graph metaphor",
+      "mind-map hierarchy",
+      "floating wiki-like index",
+      "typographic scale",
+      "minimal palette",
+      "pan/focus interaction grammar"
+    ],
     "doNotCopy": [
-      "Andrew Trousdale text",
-      "brand identity",
+      "Andrew Trousdale's authored text",
       "project names",
       "media assets",
       "font files",
-      "private code"
+      "private source code",
+      "brand identity"
     ],
     "engineeringIntelligenceContentOnly": true
   }
