@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "knowledge_base": "sophiamaybea/ideas",
+  "branch": "engineering-intelligence",
+  "root": "engineering-intelligence",
+  "initialized": "2026-10-07",
+  "last_scan": "2026-10-07",
+  "mode": "living-engineering-intelligence",
+  "rules": {
+    "modify_main": false,
+    "deduplicate": true,
+    "preserve_failures": true,
+    "separate_fact_from_hypothesis": true,
+    "prefer_primary_sources": true,
+    "gitHub_is_reasoning_infrastructure": true
+  },
+  "priority_domains": [
+    "agents",
+    "durable-execution",
+    "browser-automation",
+    "coding-agents",
+    "memory",
+    "knowledge-graphs",
+    "verification",
+    "observability",
+    "permissions",
+    "tool-integrations",
+    "optimization",
+    "simulation",
+    "treasury",
+    "reconstruction"
+  ]
+}
