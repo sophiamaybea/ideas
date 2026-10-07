@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#050505">
+<meta name="color-scheme" content="dark">
+<title>Engineering Intelligence / Money Signals</title>
+<meta name="description" content="A live engineering and economic intelligence atlas for repositories, AI money signals, ventures, prompts and learning loops.">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<a class="skip" href="#view">SKIP TO INTELLIGENCE</a>
+<div id="boot" aria-live="polite"><div class="bootMark">EI</div><p>ASSEMBLING SYSTEM ATLAS</p></div>
+<div id="app" hidden>
+<header class="topbar">
+  <button class="brand" data-route="home" aria-label="Engineering Intelligence home">ENGINEERING INTELLIGENCE<span class="dot">●</span></button>
+  <div class="run-state"><i id="liveDot"></i><span>LIVE / HOURLY</span><span id="headerUpdate">SYNCING</span></div>
+  <button class="menuBtn" id="menuBtn" aria-controls="rail" aria-expanded="false">INDEX</button>
+</header>
+<nav class="rail" id="rail" aria-label="Intelligence index">
+  <button data-route="home">00 / ATLAS</button>
+  <button data-route="signals">01 / MONEY SIGNALS</button>
+  <button data-route="repos">02 / REPO RADAR</button>
+  <button data-route="prompts">03 / PROMPT LIBRARY</button>
+  <button data-route="ventures">04 / VENTURE LAB</button>
+  <button data-route="companies">05 / MONEY MAP</button>
+  <button data-route="projects">06 / CURRENT SYSTEMS</button>
+  <button data-route="learning">07 / LEARNING LOOP</button>
+</nav>
+<main id="view" tabindex="-1"></main>
+<footer><span>ENGINEERING INTELLIGENCE / LIVE SYSTEM ATLAS</span><span id="footerUpdate"></span></footer>
+</div>
+<dialog id="detailDialog" aria-labelledby="dialogTitle"><button class="closeDialog" aria-label="Close detail">×</button><div id="dialogContent"></div></dialog>
+<script src="/app.js"></script>
+</body>
+</html>

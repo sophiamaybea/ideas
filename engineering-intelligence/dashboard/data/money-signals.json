@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "generatedAt": "2026-10-07T04:58:00+00:00",
+    "cadence": "hourly",
+    "sourceCounts": {
+      "reddit": 5,
+      "github": 1
+    },
+    "highConfidence": 2,
+    "hypeFlagged": 1,
+    "weights": {
+      "proof": 0.24,
+      "buyer": 0.14,
+      "workflow": 0.14,
+      "recurring": 0.11,
+      "reproducibility": 0.12,
+      "freshness": 0.1,
+      "corroboration": 0.15
+    },
+    "errors": [],
+    "method": "Evidence-adjusted ranking; GitHub is build evidence, not revenue proof."
+  },
+  "patterns": [
+    {
+      "label": "lead follow-up",
+      "count": 3
+    },
+    {
+      "label": "AI receptionist",
+      "count": 2
+    },
+    {
+      "label": "sales automation",
+      "count": 2
+    },
+    {
+      "label": "n8n",
+      "count": 2
+    }
+  ],
+  "signals": [
+    {
+      "id": "reddit-dealer-client",
+      "source": "reddit",
+      "sourceLabel": "Reddit / r/AiAutomations",
+      "title": "Four months into an AI automation agency, first paying dealership client",
+      "url": "https://www.reddit.com/r/AiAutomations/comments/1wsxk4n/4_months_into_building_an_ai_automation_agency_we/",
+      "publishedAt": "2026-09-29T00:00:00+00:00",
+      "summary": "Operator says a car dealership pays for a lead-nurturing system after the team first tested receptionist, SMS, email and follow-up workflows internally.",
+      "excerpt": "First paying client after four months; the client spends about $10k/month on inbound leads and the service targets missed follow-up.",
+      "moneyMentions": [
+        "$1,000",
+        "$250/month",
+        "$10k/month"
+      ],
+      "businessModel": "$1,000 setup + $250/month",
+      "buyer": "car dealership",
+      "workflow": "lead follow-up",
+      "tools": [
+        "sms",
+        "email",
+        "ai receptionist"
+      ],
+      "hypeFlags": [],
+      "hypeRisk": 0.05,
+      "score": 88.6,
+      "kind": "revenue_proof",
+      "scoreReason": "explicit money figure, specific buyer, specific workflow, recurring economics, reproducible stack"
+    },
+    {
+      "id": "reddit-agency-year",
+      "source": "reddit",
+      "sourceLabel": "Reddit / r/AI_Agents",
+      "title": "Experienced agency operator pushes back on $300k/month AI-agency claims",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1w587wo/if_you_believe_a_19_year_old_makes_300k_a_month/",
+      "publishedAt": "2026-09-02T00:00:00+00:00",
+      "summary": "An agency operator claims roughly $120k in the first year of AI automation work, with a best month of $35k and typical months around $10k–$15k, while arguing that much larger creator claims are unrealistic.",
+      "excerpt": "Useful as an operator-reported revenue range and as a warning against course-led income claims; it is still self-reported, not independently verified.",
+      "moneyMentions": [
+        "$120k",
+        "$35k",
+        "$10k",
+        "$15k"
+      ],
+      "businessModel": "Agency services",
+      "buyer": "small business",
+      "workflow": "operations",
+      "tools": [],
+      "hypeFlags": [],
+      "hypeRisk": 0.15,
+      "score": 74.8,
+      "kind": "operator_revenue_claim",
+      "scoreReason": "explicit money figure and first-person operating history; weaker buyer/workflow specificity and independent corroboration"
+    },
+    {
+      "id": "reddit-uk-packages",
+      "source": "reddit",
+      "sourceLabel": "Reddit / r/AiAutomations",
+      "title": "UK AI automation agency hiring for solar and real-estate delivery",
+      "url": "https://www.reddit.com/r/AiAutomations/comments/1uw2b0b/hiring_ai_calling_automation_freelancer_potential/",
+      "publishedAt": "2026-07-14T00:00:00+00:00",
+      "summary": "Agency says it sells AI calling and automation packages to solar and real-estate businesses and is hiring an automation specialist.",
+      "excerpt": "A useful buyer + price + workflow demand signal, though the post itself does not prove realised revenue.",
+      "moneyMentions": [
+        "£1,500",
+        "£3,000"
+      ],
+      "businessModel": "£1,500–£3,000+ service packages",
+      "buyer": "solar / real estate",
+      "workflow": "AI receptionist",
+      "tools": [
+        "voice agent"
+      ],
+      "hypeFlags": [],
+      "hypeRisk": 0.1,
+      "score": 63.5,
+      "kind": "operator_signal",
+      "scoreReason": "specific buyer, workflow and pricing; moderate proof because it is a hiring/sales claim rather than disclosed realised revenue"
+    },
+    {
+      "id": "reddit-20-workflows",
+      "source": "reddit",
+      "sourceLabel": "Reddit / r/AiForSmallBusiness",
+      "title": "One-year agency report: about 20 workflows sold, sales and support dominate",
+      "url": "https://www.reddit.com/r/AiForSmallBusiness/comments/1rdiwhf/one_year_running_an_ai_agency_honest_story/",
+      "publishedAt": "2026-02-24T00:00:00+00:00",
+      "summary": "Operator reports selling about 20 workflows, mainly sales automation and customer-support automation. Content brought the best client acquisition, and maintenance became the scaling bottleneck.",
+      "excerpt": "Important because it identifies what sold and what broke operationally, even though it does not disclose contract values.",
+      "moneyMentions": [],
+      "businessModel": "Implementation + maintenance",
+      "buyer": "small business",
+      "workflow": "sales automation",
+      "tools": [],
+      "hypeFlags": [],
+      "hypeRisk": 0.05,
+      "score": 61.9,
+      "kind": "operator_signal",
+      "scoreReason": "specific operating history and workflow; no explicit price or recurring-revenue figure"
+    },
+    {
+      "id": "github-subreach",
+      "source": "github",
+      "sourceLabel": "GitHub",
+      "title": "niihhhall/subreach — open-source Reddit prospecting and AI qualification stack",
+      "url": "https://github.com/niihhhall/subreach",
+      "publishedAt": "2026-09-07T00:00:00+00:00",
+      "summary": "Self-hostable Reddit lead-generation agent that finds prospects, AI-qualifies them and drafts replies behind a human-review queue. Useful as agency infrastructure, not revenue proof.",
+      "excerpt": "Build signal for turning Reddit pain posts into prospecting/lead-gen workflows.",
+      "moneyMentions": [],
+      "businessModel": "Build signal",
+      "buyer": "agency",
+      "workflow": "outreach",
+      "tools": [
+        "react",
+        "fastapi"
+      ],
+      "hypeFlags": [],
+      "hypeRisk": 0.05,
+      "score": 50.7,
+      "kind": "build_signal",
+      "scoreReason": "strong reproducibility and workflow specificity; intentionally capped because GitHub usage is not evidence of revenue"
+    },
+    {
+      "id": "reddit-course-hype",
+      "source": "reddit",
+      "sourceLabel": "Reddit / r/AiAutomations",
+      "title": "Are serious AI-automation earnings real, or mostly course marketing?",
+      "url": "https://www.reddit.com/r/AiAutomations/comments/1rh9cah/are_people_actually_making_serious_money_selling/",
+      "publishedAt": "2026-02-28T00:00:00+00:00",
+      "summary": "Thread contrasts agency-income claims with sellers of templates, PDFs and cohorts. Replies say SMB automation can be real work, but often requires custom process understanding and maintenance.",
+      "excerpt": "Useful mostly as a hype-detection source and as evidence that generic automation is increasingly commoditised.",
+      "moneyMentions": [
+        "$10k",
+        "$50k/month"
+      ],
+      "businessModel": "Discussion / course-risk signal",
+      "buyer": "small business",
+      "workflow": "operations",
+      "tools": [
+        "n8n"
+      ],
+      "hypeFlags": [
+        "course",
+        "templates",
+        "cohorts"
+      ],
+      "hypeRisk": 0.9,
+      "score": 18,
+      "kind": "market_discussion",
+      "scoreReason": "contains money claims but is primarily a discussion of unverified marketing claims; strong hype penalty"
+    }
+  ]
+}

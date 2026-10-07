@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "lastUpdated": "2026-10-07T04:58:00Z",
+    "modelNotice": "Fallback data only. Live intelligence loads from the engineering-intelligence branch."
+  },
+  "modes": [
+    "/github",
+    "/money",
+    "/selflearn",
+    "/wolfram"
+  ],
+  "repos": [],
+  "prompts": [],
+  "ventures": [],
+  "companies": [],
+  "companyProfiles": {},
+  "projects": [],
+  "changes": [],
+  "learning": {
+    "observedRevenue": 0,
+    "observedPaidVentures": 0,
+    "predictionErrors": [],
+    "loop": [
+      "observe",
+      "score",
+      "test",
+      "learn"
+    ],
+    "rules": []
+  },
+  "wolfram": {
+    "method": "Evidence-adjusted decision layer.",
+    "caveat": "Fallback only.",
+    "tests": []
+  }
+}
