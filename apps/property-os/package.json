@@ -1,0 +1,10 @@
+{
+  "name": "atlas-property-os",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Interactive browser-only property operations prototype",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node --check app.js"
+  }
+}
