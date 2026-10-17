@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="theme-color" content="#f7f8f5"/>
+  <meta name="description" content="ATLAS Property OS — a unified workspace for property portfolios, leases, projects, documents and finances."/>
+  <title>ATLAS — Property OS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar" id="sidebar" aria-label="Main navigation">
+    <div class="brand"><div class="brand-mark"><span>A</span></div><div class="brand-copy"><strong>atlas<span class="brand-dot">.</span></strong><small>PROPERTY OS</small></div></div>
+    <button class="workspace-switch" data-action="about"><span class="workspace-icon">N</span><span class="ws-text"><strong>Northstar Property</strong><small>Demo workspace</small></span><span class="switch-arrow">⌄</span></button>
+    <div class="sidebar-scroll">
+      <div class="nav-label">WORKSPACE</div>
+      <nav id="navigation">
+        <button class="nav-link active" data-nav="overview"><span class="nav-symbol">◫</span> Overview</button>
+        <button class="nav-link" data-nav="portfolio"><span class="nav-symbol">▤</span> Properties</button>
+        <button class="nav-link" data-nav="pipeline"><span class="nav-symbol">◇</span> Sales pipeline</button>
+        <button class="nav-link" data-nav="tenancies"><span class="nav-symbol">▦</span> Tenancies</button>
+        <button class="nav-link" data-nav="maintenance"><span class="nav-symbol">⚒</span> Maintenance <span id="nav-task-count" class="nav-badge">3</span></button>
+        <div class="nav-label nav-section">MANAGEMENT</div>
+        <button class="nav-link" data-nav="projects"><span class="nav-symbol">▥</span> Projects & works</button>
+        <button class="nav-link" data-nav="documents"><span class="nav-symbol">▧</span> Documents</button>
+        <button class="nav-link" data-nav="finance"><span class="nav-symbol">◈</span> Financials</button>
+        <button class="nav-link" data-nav="insights"><span class="nav-symbol">▧</span> Insights</button>
+        <div class="nav-label nav-section">INTELLIGENCE</div>
+        <button class="nav-link" data-nav="research"><span class="nav-symbol">✳</span> Research studio <span class="nav-new">LAB</span></button>
+        <button class="nav-link" data-nav="settings"><span class="nav-symbol">⚙</span> Settings</button>
+      </nav>
+    </div>
+    <div class="sidebar-bottom">
+      <div class="sidebar-guide"><div class="guide-icon">✦</div><strong>One place for every property.</strong><p>Explore your entire portfolio from acquisition to ownership.</p><button data-action="about">About this demo <span>↗</span></button></div>
+      <div class="account"><div class="avatar">NP</div><span><strong>Northstar Workspace</strong><small>Local demo data</small></span><span class="account-more">⋯</span></div>
+    </div>
+  </aside>
+  <div class="main-shell">
+    <header class="topbar">
+      <div class="topbar-left"><button class="mobile-menu" data-action="toggle-menu" aria-label="Toggle navigation">☰</button><span class="breadcrumbs">Workspace <span> / </span> <strong id="breadcrumb">Overview</strong></span></div>
+      <div class="topbar-right"><button class="search-trigger" data-action="search"><span>⌕</span> Search anything <kbd>⌘ K</kbd></button><span class="demo-pill"><span></span> LIVE DEMO</span><button class="icon-button" data-action="about" title="About this workspace">?</button><div class="user-avatar">N</div></div>
+    </header>
+    <main id="content" tabindex="-1"></main>
+    <footer class="footer"><span>ATLAS PROPERTY OS <i>·</i> Interactive prototype</span><span>Data is saved only in this browser <i>·</i> Not connected to live property services</span></footer>
+  </div>
+</div>
+<div id="modal-root"></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<script src="./app.js" defer></script>
+</body>
+</html>
